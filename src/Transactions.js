@@ -29,8 +29,8 @@ export class Transactions extends React.Component {
           </button>
         </h4>
         <p>
-          If you deployed a new ERC-1155 contract, reload this section until see
-          the registry URI displayed.
+          If you deployed a new rchain-tokenERC-1155 contract, reload this
+          section until see the registry URI displayed.
         </p>
         <br />
         <ul>

@@ -1,7 +1,7 @@
 {
   "name": "dapp-token-manager",
   "version": "1.0.5",
-  "description": "Dapp (Dappy) to create, buy or sell ERC-1155 tokens on RChain",
+  "description": "Dapp (Dappy) to create, buy or sell tokens on RChain",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack --mode development --watch",

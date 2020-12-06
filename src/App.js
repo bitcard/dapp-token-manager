@@ -33,7 +33,7 @@ const AppComponent = (props) => {
 
   return (
     <div className="container">
-      <h2 className="title is-2">ERC 1155 manager</h2>
+      <h2 className="title is-2">rchain-token manager</h2>
       <div className="columns left-menu">
         <div className="column is-one-quarter">
           <div className="menu">
@@ -394,8 +394,6 @@ export const App = connect(mapStateToProps, (dispatch, ownProps) => {
         price: payload.price,
         quantity: payload.quantity,
       };
-      console.log('----------------------------');
-      console.log(p);
 
       const ba = blockchainUtils.toByteArray(p);
       const term = createTokensTerm(payload.registryUri, p, 'SIGN');

@@ -4,7 +4,7 @@ export class Deploy extends React.Component {
   render() {
     return (
       <div>
-        <h4 className="title is-4">Deploy new ERC-1155 contract</h4>
+        <h4 className="title is-4">Deploy new rchain-token contract</h4>
         <p>
           After deployment, go in the <u>Transactions</u> section and wait for
           the registry URI to pop.
