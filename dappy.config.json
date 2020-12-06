@@ -1,0 +1,18 @@
+{
+  "manifest": {
+    "title": "rchain-token manager",
+    "jsPath": "dist/main.js",
+    "cssPath": "style.css",
+    "htmlPath": "dapp-token-manager.html"
+  },
+  "options": {
+    "platform": "rchain",
+    "readOnlyHost": "http://127.0.0.1",
+    "readOnlyHostHttpPort": "40403",
+    "validatorHost": "http://127.0.0.1",
+    "validatorHostHttpPort": "40403",
+    "validatorHostgrpcProposePort": "40402",
+    "privateKey": "",
+    "registryUri": ""
+  }
+}
